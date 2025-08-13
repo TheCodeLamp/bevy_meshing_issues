@@ -1,0 +1,9 @@
+[package]
+name = "meshing_issues"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bevy = { version = "0.16", features = ["wayland"] }
+binary-greedy-meshing = "0.4"
+bytemuck = "1.23"
